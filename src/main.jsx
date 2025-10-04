@@ -8,11 +8,11 @@ import {
 } from 'react-router';
 
 import App from './App.jsx'
-import AboutPage from './pages/AboutPage/AboutPage.jsx'
-import ContactPage from './pages/ContactPage/ContactPage.jsx'
-import ErrorPage from './pages/ErrorPage/ErrorPage.jsx'
-import EventsPage from './pages/EventsPage/EventsPage.jsx'
-import LandingPage from './pages/LandingPage/LandingPage.jsx'
+import AboutPage from './pages/AboutPage/AboutPage'
+import ContactPage from './pages/ContactPage/ContactPage'
+import ErrorPage from './pages/ErrorPage/ErrorPage'
+import EventsPage from './pages/EventsPage/EventsPage'
+import LandingPage from './pages/LandingPage/LandingPage'
 
 let router = createBrowserRouter([
   {
