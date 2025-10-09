@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  align-self: flex-start;
+}
+
+input {
+  width: 40vw;
+}
+
+textarea {
+  height: 30vh;
+}
+
+button {
+  width: 150px;
+}
+
+#lastName {
+  display: inline-block;
+}

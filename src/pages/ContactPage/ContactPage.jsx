@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
+import './ContactPage.css'
 
 export default function ContactPage() {
 
@@ -29,7 +30,7 @@ export default function ContactPage() {
   });
 
   return (
-    <div>
+    <div id="formWrapper">
 
       <h2>WANT TO JOIN OUR COMMUNITY OF HAVE ADDITIONAL QUESTIONS?</h2>
       <p>Fill out the form below</p>
@@ -39,19 +40,31 @@ export default function ContactPage() {
         <label for="firstName">First Name:</label>
         <input type="text" name="firstName" {...register("firstName", { required: true })}></input>
 
+        <br></br>
+
         <label for="lastName">Last Name:</label>
-        <input type="text" name="lastName" {...register("lastName", { required: true })}></input>
+        <input id="lastName" type="text" name="lastName" {...register("lastName", { required: true })}></input>
+
+        <br></br>
 
         <label for="email">Email:</label>
         <input type="email" name="email" {...register("email", { required: true })}></input>
 
+        <br></br>
+
         <label for="referralQuestion">How did you hear about us?</label>
         <input type="text" name="referralQuestion" {...register("referralQuestion", { required: true })}></input>
+        
+        <br></br>
 
         <label for="message">Write your message/inquiry here:</label>
         <textarea type="text" name="message" {...register("message", { required: true })}></textarea>
 
-        <button type="submit">SUBMIT</button>
+        <br></br>
+
+        <button type="submit">SEND IT OFF!</button>
+
+        <br></br>
 
         <div>{result}</div>
 
