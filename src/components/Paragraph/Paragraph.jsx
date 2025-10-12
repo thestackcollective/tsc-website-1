@@ -1,6 +1,6 @@
-export default function Paragraph({heading, text}) {
+export default function Paragraph({className, heading, text}) {
   return (
-    <section className="">
+    <section className={className}>
       <h3>{heading}</h3>
       <p>{text}</p>
     </section>
