@@ -1,4 +1,5 @@
 import EventCard from "./EventCard"
+import NavLinkButton from "../NavLinkButton/NavLinkButton"
 import './EventTeaserSectionContainer.css'
 
 export default function EventTeaserSectionContainer() {
@@ -35,8 +36,13 @@ export default function EventTeaserSectionContainer() {
   })
 
   return (
-    <section className="events-list">
-      {EventsList}
+    <section>
+      <div className="events-list">
+        {EventsList}
+      </div>
+      <div>
+        <NavLinkButton location="./events" text="Find More Events Here" />
+      </div>
     </section>
   )
 
