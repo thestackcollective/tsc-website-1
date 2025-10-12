@@ -4,7 +4,6 @@ import EventTeaserSectionContainer from "../../components/EventTeaserSection/Eve
 export default function LandingPage() {
   return (
     <section>
-      <h1>Landing Page!</h1>
       <Paragraph 
         className='landing-page-paragraph'
         heading='Mission Statement'
