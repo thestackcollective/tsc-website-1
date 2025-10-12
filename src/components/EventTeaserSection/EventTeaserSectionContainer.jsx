@@ -1,4 +1,5 @@
 import EventCard from "./EventCard"
+import './EventTeaserSectionContainer.css'
 
 export default function EventTeaserSectionContainer() {
   const EVENTS = [
@@ -34,7 +35,7 @@ export default function EventTeaserSectionContainer() {
   })
 
   return (
-    <section>
+    <section className="events-list">
       {EventsList}
     </section>
   )
