@@ -1,4 +1,5 @@
 import Paragraph from "../../components/Paragraph/Paragraph"
+import EventTeaserSectionContainer from "../../components/EventTeaserSection/EventTeaserSectionContainer"
 
 export default function LandingPage() {
   return (
@@ -11,6 +12,7 @@ export default function LandingPage() {
         stack tech professionals in meaningful software careers by providing networking, 
         educational, and career support opportunities."
       />
+      <EventTeaserSectionContainer/>
     </section>
 
   )
