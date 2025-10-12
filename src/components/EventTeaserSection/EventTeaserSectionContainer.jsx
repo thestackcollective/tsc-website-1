@@ -24,8 +24,17 @@ export default function EventTeaserSectionContainer() {
 
   const EventsList = EVENTS.map(listedEvent => {
     <EventCard
-
+      eventHeading={listedEvent.eventHeader}
+      text={listedEvent.text}
+      altText={listedEvent.altText}
+      image={listedEvent.imageSource}
     />
   })
+
+  return (
+    <section>
+      {EventsList}
+    </section>
+  )
 
 }
