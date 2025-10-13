@@ -1,10 +1,11 @@
 import Paragraph from "../../components/Paragraph/Paragraph"
 import EventTeaserSectionContainer from "../../components/EventTeaserSection/EventTeaserSectionContainer"
 import NavLinkButton from "../../components/NavLinkButton/NavLinkButton"
+import './LandingPage.css'
 
 export default function LandingPage() {
   return (
-    <section>
+    <section className="landing-page-section">
       <Paragraph 
         className='landing-page-paragraph'
         heading='Mission Statement'
