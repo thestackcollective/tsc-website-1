@@ -19,7 +19,7 @@ export default function LandingPage() {
       <EventTeaserSectionContainer/>
       <DividerBar className='divider-bar-primary' />
       <DividerBar className='divider-bar-tertiary' />
-      <NavLinkButton location="./contact" text="Questions For Us?" />
+      <NavLinkButton location="./contact" text="QUESTIONS FOR US?" />
     </section>
 
   )
