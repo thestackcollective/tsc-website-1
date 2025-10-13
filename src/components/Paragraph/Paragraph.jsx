@@ -1,3 +1,5 @@
+import './Paragraph.css'
+
 export default function Paragraph({className, heading, text}) {
   return (
     <section className={className}>

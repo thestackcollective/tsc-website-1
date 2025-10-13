@@ -1,0 +1,10 @@
+.landing-page-paragraph {
+  color: black;
+}
+
+.landing-page-paragraph p {
+  margin: auto;
+  width: 60%;
+  font-size: 1.25rem;
+  font-weight: 200;
+}

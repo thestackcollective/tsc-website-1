@@ -8,9 +8,10 @@
 }
 
 .event-card img {
-  width: 40%;
+  width: 50%;
 }
 
 .event-card p {
   width: 50%;
+  font-size: 1.25rem;
 }
