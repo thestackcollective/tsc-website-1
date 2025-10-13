@@ -37,6 +37,7 @@ export default function EventTeaserSectionContainer() {
 
   return (
     <section className="event-teaser-section">
+      <h2>UPCOMING EVENTS</h2>
       <div className="events-list">
         {EventsList}
       </div>
