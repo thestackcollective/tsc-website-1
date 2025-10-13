@@ -7,7 +7,7 @@ export default function EventTeaserSectionContainer() {
     {
       eventHeader: 'RollerSkating Ruby',
       text: 'This land is my land, this land is your land, From California, to the New York Islands',
-      imageSource: 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fexcited-african-guy-dancing-modern-smartphone-advertisement-mobile-application-over-yellow-background-showing-empty-193620177.jpg&sp=1760310533Tc7211e03173b61a3a9e3baa7db0939a1be1b41d77773885f0ee26209055ab33c',
+      imageSource: 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fbowie15%2Fbowie151208%2Fbowie15120800108%2F15112437-businessman-running.jpg&sp=1760314301Tbbd2426ac31ba7d89f236c60366f5c3bebc75959df4b340bf3afec9153677483',
       altText: 'an image of a man holding up a cellphone'
     },
     {
