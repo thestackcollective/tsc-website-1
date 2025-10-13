@@ -11,6 +11,10 @@
   width: 50%;
 }
 
+.event-card h4 {
+  margin: 0;
+}
+
 .event-card p {
   width: 50%;
   font-size: 1.25rem;
