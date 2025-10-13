@@ -7,19 +7,19 @@ export default function EventTeaserSectionContainer() {
     {
       eventHeader: 'RollerSkating Ruby',
       text: 'This land is my land, this land is your land, From California, to the New York Islands',
-      imageSource: 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fbowie15%2Fbowie151208%2Fbowie15120800108%2F15112437-businessman-running.jpg&sp=1760314301Tbbd2426ac31ba7d89f236c60366f5c3bebc75959df4b340bf3afec9153677483',
+      imageSource: '/images/background_decorating_image.jpeg',
       altText: 'an image of a man holding up a cellphone'
     },
     {
       eventHeader: 'Parasailing Python',
       text: 'From California, to the New York Islands, From the redwood forests to the spring waters',
-      imageSource: 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ft3.ftcdn.net%2Fjpg%2F02%2F72%2F90%2F28%2F360_F_272902867_xASWPZ0a6EdFm5FmSD1gqMBCgKhKlcPZ.jpg&sp=1760310533T30dc6bec6a9a1e23960e3c1cc8f56344cc1e6181bae1146291c17a4ae22ae6d6',
+      imageSource: 'images/background_image_decor_4.png',
       altText: 'an image of a man excitedly smiling'
     },
     {
       eventHeader: 'Nodding off Node',
       text: 'From the redwood forests to the spring waters',
-      imageSource: 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fstorage.googleapis.com%2Fwebsite-production%2Fuploads%2F2017%2F10%2Fstock-photo-guide-cheesy-celebration.jpg&sp=1760310533T04edc4d56f05016453c703fb5fbef2128d062cbc96572e8cb2daeba762bc6c8d',
+      imageSource: 'images/background_image_decoration_2.jpeg',
       altText: 'image of a group of people jumping up and down for joy'
     }
   ]
