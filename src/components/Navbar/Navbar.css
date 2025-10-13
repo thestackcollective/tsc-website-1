@@ -19,6 +19,7 @@ nav .pages-nav a:hover {
   animation: swing .9s step-end;
 }
 
+
 @keyframes swing {
   0% {
     transform: rotateY(-25deg);
