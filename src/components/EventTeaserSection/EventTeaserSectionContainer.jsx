@@ -41,7 +41,7 @@ export default function EventTeaserSectionContainer() {
         {EventsList}
       </div>
       <div>
-        <NavLinkButton location="./events" text="Find More Events Here" />
+        <NavLinkButton location="./events" text="Find More Events Here ->" />
       </div>
     </section>
   )

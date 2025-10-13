@@ -1,4 +1,9 @@
-nav {
+nav .pages-nav {
+  border: 1px solid purple;
   display: flex;
   justify-content: space-around;
+}
+
+nav .pages-nav div {
+  height: 70vh;
 }

@@ -1,5 +1,6 @@
 import Paragraph from "../../components/Paragraph/Paragraph"
 import EventTeaserSectionContainer from "../../components/EventTeaserSection/EventTeaserSectionContainer"
+import NavLinkButton from "../../components/NavLinkButton/NavLinkButton"
 
 export default function LandingPage() {
   return (
@@ -12,6 +13,7 @@ export default function LandingPage() {
         educational, and career support opportunities."
       />
       <EventTeaserSectionContainer/>
+      <NavLinkButton location="./contact" text="Questions For Us?" />
     </section>
 
   )
