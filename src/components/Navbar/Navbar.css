@@ -5,12 +5,13 @@ nav .pages-nav {
 
 nav .pages-nav a {
   background-image: url('images/background_image_decoration_2.jpeg');
-  padding: 14.5rem 7rem 4rem 7rem;
+  padding: 14.5rem 6rem 4rem 6rem;
   height: 40vh;
   border: .5px solid black;
   border-radius: 1.5rem;
   perspective: 1000px;
   color: white;
+  font-weight: 800;
   font-size: xx-large;
 }
 
@@ -39,6 +40,6 @@ nav .pages-nav a:nth-child(3) {
 }
 
 nav .pages-nav a:nth-child(4) {
-  background-image: url('images/background_image_decor_4.png');
+  background-image: url('images/hero-image-person-typing.avif');
   opacity: .5;
 }
