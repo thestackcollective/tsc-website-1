@@ -6,5 +6,8 @@ nav .pages-nav {
 nav .pages-nav a {
   padding: 0 7rem;
   height: 70vh;
-  border: 1px solid purple;
+  border: .5px solid purple;
+  border-radius: 3rem;
+  transform: translateY(-10%);
+  transition: transform 1.3s ease;
 }
