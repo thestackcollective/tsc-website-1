@@ -8,9 +8,15 @@ export default function Navbar() {
         <div>
           <NavLinkButton location="./about" text="About" />
         </div>
-        <NavLinkButton location="./events" text="Events" />
-        <NavLinkButton location="./curriculum" text="Curriculum" />
-        <NavLinkButton location="./contact" text="Contact" />
+        <div>
+          <NavLinkButton location="./events" text="Events" />
+        </div>
+        <div>
+          <NavLinkButton location="./curriculum" text="Curriculum" />
+        </div>
+        <div>
+          <NavLinkButton location="./contact" text="Contact" />
+        </div>
       </div>
     </nav>
   )

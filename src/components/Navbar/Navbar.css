@@ -5,5 +5,7 @@ nav .pages-nav {
 }
 
 nav .pages-nav div {
+  padding: 0 9rem;
   height: 70vh;
+  border: 1px solid purple;
 }
