@@ -1,4 +1,5 @@
 nav .pages-nav {
+  padding-top: 4rem;
   display: flex;
   justify-content: center;
 }
@@ -9,7 +10,7 @@ nav .pages-nav a {
   height: 40vh;
   border-radius: 1rem;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1.5px 1.5px 1.5px black;
   font-weight: 800;
   font-size: xx-large;
 }
