@@ -1,11 +1,10 @@
 nav .pages-nav {
-  border: 1px solid purple;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-nav .pages-nav div {
-  padding: 0 9rem;
+nav .pages-nav a {
+  padding: 0 7rem;
   height: 70vh;
   border: 1px solid purple;
 }
