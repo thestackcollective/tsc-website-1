@@ -4,22 +4,26 @@ nav .pages-nav {
 }
 
 nav .pages-nav a {
+  background-image: url('/images/background_decorating_image.jpeg');
   padding: 0 7rem;
   height: 70vh;
   border: .5px solid purple;
-  border-radius: 3rem;
+  border-radius: 1.5rem;
+  perspective: 1000px;
+  color: white;
+  font-size: xx-large;
 }
 
 nav .pages-nav a:hover {
-  animation: swing .3s ease-in;
+  animation: swing .9s step-end;
 }
 
 @keyframes swing {
   0% {
-    transform: rotateY(40deg);
+    transform: rotateY(-25deg);
   }
 
   100% {
-    transform: rotateY(-30deg);
+    transform: rotateY(25deg);
   }
 }
