@@ -5,8 +5,8 @@ nav .pages-nav {
 
 nav .pages-nav a {
   background-image: url('/images/background_decorating_image.jpeg');
-  padding: 0 7rem;
-  height: 70vh;
+  padding: 12.5rem 7rem 4rem 7rem;
+  height: 30vh;
   border: .5px solid purple;
   border-radius: 1.5rem;
   perspective: 1000px;
