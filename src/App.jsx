@@ -7,10 +7,10 @@ import { Outlet } from 'react-router'
 
 export default function App() {
   return (
-    <main className='main'>
+    <div className='app'>
       <Navbar />
       <Outlet />
       <Footer />
-    </main>
+    </div>
   )
 }
