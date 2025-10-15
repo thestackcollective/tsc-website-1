@@ -1,0 +1,29 @@
+.footer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-separator {
+  display: flex;
+  align-items: center;
+}
+
