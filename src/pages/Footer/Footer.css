@@ -1,0 +1,23 @@
+.footer {
+  color: black;
+  margin-top: 20vh;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-separator {
+  display: flex;
+  align-items: center;
+}
+
