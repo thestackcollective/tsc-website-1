@@ -1,0 +1,23 @@
+.divider-bar-primary {
+  height: 5vh;
+  background-color: #d9d3c2;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.divider-bar-secondary {
+  height: 5vh;
+  background-color: #cdcccc;
+  width: 60%;
+  margin-left: 44.5%;
+  margin-bottom: 4rem;
+}
+
+.divider-bar-tertiary {
+  height: 5vh;
+  background-color: #cdcccc;
+  width: 60%;
+  margin-left: -4.5%;
+  margin-bottom: 10rem;
+}

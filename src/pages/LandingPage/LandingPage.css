@@ -1,0 +1,9 @@
+.landing-page-section a:nth-child(7) {
+  padding: 2rem 4rem;
+  background-color: #808080;
+  color: black;
+}
+
+.landing-page-section a:nth-child(7):hover {
+  background-color: #bdb8aa;
+}

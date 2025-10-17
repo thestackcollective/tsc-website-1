@@ -4,10 +4,12 @@ export default function Navbar() {
   return (
     <nav>
       <NavLinkButton location="./" text="TheStackCollective" />
-      <NavLinkButton location="./about" text="About" />
-      <NavLinkButton location="./events" text="Events" />
-      <NavLinkButton location="./curriculum" text="Curriculum" />
-      <NavLinkButton location="./contact" text="Contact" />
+      <div className='pages-nav'>
+          <NavLinkButton location="./about" text="ABOUT" />
+          <NavLinkButton location="./events" text="EVENTS" />
+          <NavLinkButton location="./curriculum" text="CURRICULUM" />
+          <NavLinkButton location="./contact" text="CONTACT" />
+      </div>
     </nav>
   )
 }
