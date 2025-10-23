@@ -1,0 +1,26 @@
+.event-info {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.event-info-calendar {
+  display: flex;
+  justify-content: center;
+  font-size: 8em;
+  width: 20%;
+}
+
+.event-info-details {
+  width: 80%;
+}
+
+.event-info-details-header {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.event-info-details-date {
+  font-size: 1em;
+  font-weight: bold;
+}
