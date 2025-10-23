@@ -1,0 +1,38 @@
+.events {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9fd;
+  color: black;
+  margin-top: 15%;
+}
+
+.events-contents {
+  display: flex;
+  height: 100%;
+}
+
+.events-types {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.events-types p {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.events-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.events-contact {
+  margin-top: 10%;
+}
