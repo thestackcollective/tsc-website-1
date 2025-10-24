@@ -16,7 +16,7 @@ export default function ContactPage() {
     access_key: accessKey,
     settings: {
       from_name: "The Stack Collective Webstie",
-      subject: "New Message from TSC Webstie",
+      subject: "New Message from TSC Website",
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
