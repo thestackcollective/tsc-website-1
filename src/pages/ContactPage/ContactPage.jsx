@@ -10,12 +10,14 @@ export default function ContactPage() {
   const [isSuccess, setIsSuccess] = useState(false);
   const [result, setResult] = useState(null);
 
-  const accessKey = "26f3a9bb-011c-474c-a04b-b1d3dcbf82f6";
+  const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+
+  console.log(accessKey)
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: accessKey,
     settings: {
-      from_name: "The Stack Collective Webstie",
+      from_name: "The Stack Collective Website",
       subject: "New Message from TSC Website",
     },
     onSuccess: (msg, data) => {
@@ -32,7 +34,7 @@ export default function ContactPage() {
   return (
     <div id="formWrapper">
 
-      <h2>WANT TO JOIN OUR COMMUNITY OF HAVE ADDITIONAL QUESTIONS?</h2>
+      <h2>WANT TO JOIN OUR COMMUNITY OR HAVE ADDITIONAL QUESTIONS?</h2>
       <p>Fill out the form below</p>
 
       <form onSubmit={handleSubmit(onSubmit)}>
