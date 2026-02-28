@@ -1,16 +1,25 @@
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
+import Contact from './components/Contact'
+import Layout from './components/Layout'
 
-import Navbar from './components/Navbar/Navbar'
-import Footer from './pages/Footer/Footer'
-
-import { Outlet } from 'react-router'
+import Curriculum from './components/Curriculum'
+import Board from './components/Board'
+import Donate from './components/Donate'
+import './App.scss'
 
 export default function App() {
   return (
-    <div className='app'>
-      <Navbar />
-      <Outlet />
-      <Footer />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/curriculum" element={<Curriculum />} />
+          <Route path="/board" element={<Board />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/donate" element={<Donate />} />
+        </Route>
+      </Routes>
+    </>
   )
 }

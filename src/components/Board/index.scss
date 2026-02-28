@@ -1,0 +1,64 @@
+.board {
+    width: auto;
+    position: absolute;
+    left: 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+
+    .professional-card {
+        height: 340px;
+        width: 340px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .professional-title {
+            margin-top: -50px;
+        }
+
+        h1 {
+            font-size: 18px;
+            padding-left: 10px;
+            color: whitesmoke;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .board-page {
+        .board {
+            width: 90%;
+            height: 85vh;
+            position: relative;
+            left: 13%;
+
+            display: grid;
+            grid-template-columns: 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
+
+            overflow-y: scroll;
+
+            .professional-card {
+                height: auto;
+                width: 80%;
+                overflow: visible;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .professional-title {
+                    margin-top: -50px;
+                }
+            }
+        }
+    }
+}

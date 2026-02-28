@@ -1,0 +1,133 @@
+.donate-page {
+  .donor-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-65%);
+    width: 33%;
+    max-height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  h1 {
+    color: #111;
+    font-size: 56px;
+    line-height: 53px;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    animation: fadeIn 1s 1.8s backwards;
+    margin-bottom: 10px;
+
+    img {
+      margin-left: 20px;
+      opacity: 0;
+      width: 32px;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 2.5px;
+    animation: fadeIn 1s 1.8s backwards;
+
+    font-size: 13px;
+  }
+
+  .flat-button {
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    white-space: nowrap;
+
+    color: #111;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    float: left;
+    text-align: center;
+
+    background-color: #8ad4e5;
+    border: 0;
+
+    &:hover {
+      background: #efd13b;
+      color: #111;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+  .donate-page .donor-zone {
+    position: initial;
+    width: 100%;
+    transform: none;
+    padding: 10px;
+    box-sizing: border-box;
+
+    transform: translateY(-12%);
+  }
+}
+
+.map-wrap {
+  float: right;
+  height: 115%;
+  margin-top: -4%;
+  opacity: .75;
+}
+
+.donor-box {
+  display: flex;
+  flex-direction: column;
+  width: 63%;
+
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .donate-page {
+     .map-wrap {
+      float: 0;
+      margin: 0;
+      width: 100%;
+     }
+
+     h1 {
+      text-align: center;
+     }
+
+     h2 {
+      text-align: center;
+     }
+  }
+
+  .donor-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .flat-button {
+      min-width: 300px;
+    }
+  }
+}
