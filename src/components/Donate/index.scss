@@ -2,8 +2,8 @@
   .donor-zone {
     position: absolute;
     left: 10%;
-    top: 50%;
-    transform: translateY(-65%);
+    top: 0;
+    // transform: translateY(-65%);
     width: 33%;
     max-height: 90%;
 
@@ -84,7 +84,11 @@
     padding: 10px;
     box-sizing: border-box;
 
-    transform: translateY(-12%);
+    // transform: translateY(-12%);
+  }
+
+  .donor-zone {
+    margin: -60px 0;
   }
 }
 
