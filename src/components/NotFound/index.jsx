@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../Home/Logo'
 import './index.scss'
 
-import SoftwareEngineer from '../../assets/images/software_engineer.jpg';
+import SoftwareEngineer from '../../assets/images/softwareengineer.jpg';
 
 export default function NotFound() {
   return (
