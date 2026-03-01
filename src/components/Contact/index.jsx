@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import './index.scss'
 
-import ContactPhoto from '../../assets/images/folks_whiteboarding_red.jpg';
+import ContactPhoto from '../../assets/images/folkswhiteboardingred.jpg';
 
 export default function Contact() {
   const formRef = useRef()

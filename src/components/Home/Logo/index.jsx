@@ -1,15 +1,13 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import DrawSVGPlugin from 'gsap/DrawSVGPlugin'
-import LogoS from '../../../assets/images/tsc_logo.svg'
+import LogoS from '../../../assets/images/tsclogo.svg'
 import './index.scss'
 export default function Logo() {
   const bgRef = useRef()
   const solidLogoRef = useRef()
 
   useEffect(() => {
-    gsap.registerPlugin(DrawSVGPlugin)
-
     gsap
       .timeline()
       .to(bgRef.current, {
