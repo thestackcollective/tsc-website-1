@@ -18,7 +18,7 @@ export default function Donate() {
           <br />
           <div className="donor-box">
             <script type="module" src="https://donorbox.org/widgets.js" async></script>
-            <div dangerouslySetInnerHTML={{ __html: donorboxCode }}></div>
+            <div dangerouslySetInnerHTML={{ __html: donorboxCode }}></div> 
           </div>
         </div>
         <div className="map-wrap">
