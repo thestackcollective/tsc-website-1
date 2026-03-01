@@ -4,6 +4,8 @@ import './index.scss'
 
 import SoftwareEngineer from '../../assets/images/softwareengineer.jpg';
 
+// Arbitrary comment...
+
 export default function Home() {
   return (
     <>
