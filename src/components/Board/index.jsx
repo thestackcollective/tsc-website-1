@@ -1,11 +1,11 @@
 import "./index.scss";
 
-import BrianSayler from '../../assets/images/Brian-Sayler.png'
-import OliviaWebster from '../../assets/images/Olivia-Webster.jpg'
-import RoryMagee from '../../assets/images/Rory-Magee.jpg'
-import AnthonyShellman from '../../assets/images/Anthony-Shellman.jpg'
-import StevieAmbroise from '../../assets/images/Stevie-Ambroise.png'
-import CameronMackintosh from '../../assets/images/Cameron-Mackintosh.jpg'
+import BrianSayler from '../../assets/images/brian.png'
+import OliviaWebster from '../../assets/images/olivia.jpg'
+import RoryMagee from '../../assets/images/rory.jpg'
+import AnthonyShellman from '../../assets/images/anthony.jpg'
+import StevieAmbroise from '../../assets/images/stevie.png'
+import CameronMackintosh from '../../assets/images/cameron.jpg'
 
 export default function Board() { 
     return (
