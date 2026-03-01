@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './index.scss'
 
-import BookPhoto from '../../assets/images/home_page_splash_green.jpg';
+import BookPhoto from '../../assets/images/splashgreen.jpg';
 
 
 export default function Curriculum() {
