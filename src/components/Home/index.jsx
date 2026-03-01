@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import './index.scss'
 
-// import FolksWhiteboarding from '../../assets/images/folks_whiteboarding_blue.jpg';
-import SoftwareEngineer from '../../assets/images/software-engineer.jpg';
+import SoftwareEngineer from '../../assets/images/software_engineer.jpg';
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 import './index.scss'
 
-import EngineerPhoto from '../../assets/images/pexels-engineer-yellow.jpg';
+import EngineerPhoto from '../../assets/images/pexels_engineer_yellow.jpg';
 
 
 export default function Donate() {

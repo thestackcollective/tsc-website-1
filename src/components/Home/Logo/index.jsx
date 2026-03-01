@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import DrawSVGPlugin from 'gsap/DrawSVGPlugin'
-import LogoS from '../../../assets/images/TSC_Logo.svg'
+import LogoS from '../../../assets/images/tsc_logo.svg'
 import './index.scss'
 export default function Logo() {
   const bgRef = useRef()
