@@ -9,8 +9,6 @@ export default function Donate() {
     <dbox-widget campaign="stackcollective-donation-page" type="donation_form" enable-auto-scroll="true"></dbox-widget>
   `;
 
-  // Please let me fix this!
-
   return (
     <>
       <div className="container donate-page">
