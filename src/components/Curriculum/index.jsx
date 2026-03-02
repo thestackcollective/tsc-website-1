@@ -11,7 +11,7 @@ export default function Curriculum() {
       <div className="container curriculum-page">
         <div className="text-zone">
           <h1> Curriculum </h1>
-          <h2>Open Source Ruby and React Curriculum</h2>
+          <h2>Open Source Ruby on Rails and React Curriculum</h2>
           <div className="site-buttons">
             <Link to="https://curriculum.thestackcollective.org" className="flat-button">
               LAUNCH CURRICULUM SITE
