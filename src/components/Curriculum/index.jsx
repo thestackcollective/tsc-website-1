@@ -13,13 +13,13 @@ export default function Curriculum() {
           <h1> Curriculum </h1>
           <h2>Open Source Ruby and React Curriculum</h2>
           <div className="site-buttons">
-            <Link to="https://curriculum.turing.edu" className="flat-button">
+            <Link to="https://curriculum.thestackcollective.org" className="flat-button">
               LAUNCH CURRICULUM SITE
             </Link>
-            <Link to="https://frontend.turing.edu" className="flat-button">
+            <Link to="https://frontend.thestackcollective.org" className="flat-button">
               LAUNCH FRONTEND SITE
             </Link>
-            <Link to="https://backend.turing.edu" className="flat-button">
+            <Link to="https://backend.thestackcollective.org" className="flat-button">
              LAUNCH BACKEND SITE
             </Link>
           </div>
