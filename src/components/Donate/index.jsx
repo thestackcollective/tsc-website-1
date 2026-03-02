@@ -20,7 +20,9 @@ export default function Donate() {
             <script type="module" src="https://donorbox.org/widgets.js" async></script>
             <div dangerouslySetInnerHTML={{ __html: donorboxCode }}></div>
           </div> */}
-          <Widget />
+          {/* <div id="donor-box-id" className="donor-box"> */}
+            <Widget />
+          {/* </div> */}
         </div>
         <div className="map-wrap">
           <img src={EngineerPhoto} alt="Stock Image" />
