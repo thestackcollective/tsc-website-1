@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 
 export default function Widget() {
-  let widgetRef = useRef(null)
+  let widgetRef = useRef(null);
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -10,7 +10,7 @@ export default function Widget() {
     // script.type = 'module';
     script.async = true;
     document.getElementById('donor-box-id').appendChild(script);
-    return () => document.getElementById('donor-box-id').appendChild(script);
+    return () => document.getElementById('donor-box-id').removeChild(script);
   }, []);
   
   return (
