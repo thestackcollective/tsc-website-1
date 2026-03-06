@@ -5,5 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.JPG"],
-   base: "./",
+  base: "./",
+  server: {
+    // cors: {
+    //   origin: "https://donorbox.org/widgets.js",
+    //   allowedHeaders: ['Content-Type', 'Authorization', 'Access-Control-Allow-Origin']
+    // },
+    cors: true,
+  },
 })

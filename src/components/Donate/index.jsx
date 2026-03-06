@@ -1,13 +1,14 @@
 import './index.scss'
+import { Link } from 'react-router'
 
 import EngineerPhoto from '../../assets/images/pexelsengineeryellow.jpg';
 import Widget from './Widget'
 
 export default function Donate() {
 
-  // const donorboxCode = `
-  //   <dbox-widget campaign="stackcollective-donation-page" type="donation_form" enable-auto-scroll="true"></dbox-widget>
-  // `;
+  const donorboxCode = `
+    <dbox-widget campaign="stackcollective-donation-page" type="donation_form" enable-auto-scroll="true"></dbox-widget>
+  `;
 
   return (
     <>
@@ -16,13 +17,16 @@ export default function Donate() {
           <br />
           <h1>Donate</h1>
           <br />
-          {/* <div className="donor-box">
+          <div className="donor-box">
             <script type="module" src="https://donorbox.org/widgets.js" async></script>
             <div dangerouslySetInnerHTML={{ __html: donorboxCode }}></div>
-          </div> */}
+          </div>
           {/* <div id="donor-box-id" className="donor-box"> */}
-            <Widget />
+            {/* <Widget /> */}
           {/* </div> */}
+          {/* <Link to="https://donorbox.org/stackcollective-donation-page" className="flat-button">
+            Launch DonorBox
+          </Link> */}
         </div>
         <div className="map-wrap">
           <img src={EngineerPhoto} alt="Stock Image" />
