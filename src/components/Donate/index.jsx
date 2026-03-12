@@ -20,7 +20,7 @@ export default function Donate() {
           <br />
           <div className="donor-box">
             <Link className="donor-box-button" to="https://donorbox.org/stackcollective-donation-page">
-              <img src={DonorboxScreenshotButton} alt="Donorbox Screenshot Button" />
+              <img className="donor-box-image" src={DonorboxScreenshotButton} alt="Donorbox Screenshot Button" />
             </Link>
             {/* <script type="module" src="https://donorbox.org/widgets.js" async></script>
             <div dangerouslySetInnerHTML={{ __html: donorboxCode }}></div> */}
@@ -33,7 +33,7 @@ export default function Donate() {
           </Link> */}
         </div>
         <div className="map-wrap">
-          <img src={EngineerPhoto} alt="Stock Image" />
+          <img className="stock-image" src={EngineerPhoto} alt="Stock Image" />
         </div>
       </div>
     </>

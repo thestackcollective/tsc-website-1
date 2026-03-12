@@ -22,7 +22,7 @@
     animation: fadeIn 1s 1.8s backwards;
     margin-bottom: 10px;
 
-    img {
+    .donor-box-image {
       margin-left: 20px;
       opacity: 0;
       width: 32px;
@@ -103,7 +103,7 @@
       margin: 0;
       width: 100%;
 
-      img {
+      .stock-image {
         width: 100vw;
         height: 110%;
       }
