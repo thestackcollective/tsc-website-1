@@ -15,9 +15,7 @@ export default function Donate() {
     <>
       <div className="container donate-page">
         <div className="donor-zone">
-          <br />
           <h1>Donate</h1>
-          <br />
           <div className="donor-box">
             <Link className="donor-box-button" to="https://donorbox.org/stackcollective-donation-page">
               <img className="donor-box-image" src={DonorboxScreenshotButton} alt="Donorbox Screenshot Button" />
