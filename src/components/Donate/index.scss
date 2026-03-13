@@ -22,7 +22,7 @@
     animation: fadeIn 1s 1.8s backwards;
     margin-bottom: 10px;
 
-    img {
+    .donor-box-image {
       margin-left: 20px;
       opacity: 0;
       width: 32px;
@@ -76,9 +76,9 @@
     // transform: translateY(-12%);
   }
 
-  .donor-zone {
-    margin: -60px 0;
-  }
+  // .donor-zone {
+  //   margin: -60px 0;
+  // }
 }
 
 .map-wrap {
@@ -102,6 +102,11 @@
       float: 0;
       margin: 0;
       width: 100%;
+
+      .stock-image {
+        width: 100vw;
+        height: 110%;
+      }
      }
 
      h1 {
@@ -123,10 +128,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .donate-page {
-     .map-wrap {
-      visibility: hidden;
-     }
-  }
+.donor-box-button:hover {
+  cursor: pointer;
+  margin: 10px;
 }
