@@ -44,4 +44,13 @@ footer {
   }
 }
 
+::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+
+
+
+
+
 
