@@ -19,7 +19,7 @@
     line-height: 53px;
     font-family: 'Coolvetica';
     font-weight: 400;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeIn 0.5s 1s backwards;
     margin-bottom: 10px;
 
     .donor-box-image {
@@ -81,20 +81,20 @@
   }
 }
 
-.map-wrap {
-  float: right;
-  height: 115%;
-  margin-top: -4%;
-  opacity: .75;
-}
+// .map-wrap {
+//   float: right;
+//   height: 115%;
+//   margin-top: -4%;
+//   opacity: .75;
+// }
 
-.donor-box {
-  display: flex;
-  flex-direction: column;
-  width: 63%;
+// .donor-box {
+//   display: flex;
+//   flex-direction: column;
+//   width: 63%;
 
-  align-items: center;
-}
+//   align-items: center;
+// }
 
 @media screen and (max-width: 1200px) {
   .donate-page {
@@ -102,17 +102,17 @@
       float: 0;
       margin: 0;
       width: 100%;
+      min-height: 75vh;
 
       .stock-image {
-        width: 100vw;
-        height: 110%;
+        width: 100%;
       }
      }
 
      h1 {
       text-align: center;
       font-size: 48px;
-      margin-top: 20px;;
+      margin-top: 40px;
      }
   }
 
@@ -130,5 +130,4 @@
 
 .donor-box-button:hover {
   cursor: pointer;
-  margin: 10px;
 }
