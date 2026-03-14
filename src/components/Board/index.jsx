@@ -35,7 +35,8 @@ export default function Board() {
                      <div className="professional-card">
                         <img src={CameronMackintosh} />
                         <h1 className="professional-title">Cameron Mackintosh, Developer</h1>
-                    </div>     
+                    </div> 
+                    <div className="spacer" />    
                 </div>
             </div>
         </>
